@@ -11,7 +11,7 @@ class MainKtTest {
 
         val result = calComission(card, lastTransfers, transfer)
 
-        assertEquals(23756.0, result, 0.0)
+        assertEquals(2375.0, result, 0.0)
     }
     @Test
     fun calcZeroComissionMaestro() {
